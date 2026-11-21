@@ -1,0 +1,59 @@
+.DS_Store
+Thumbs.db
+.env
+.idea/
+.vscode/
+node_modules/
+src/vendor/
+src/node_modules/
+src/public/build/
+src/public/storage
+
+# Sistema operativo y editores (en cualquier carpeta)
+.DS_Store
+Thumbs.db
+*.log
+
+# Variables de entorno (.env.example SÍ se sube)
+/src/.env
+/src/.env.backup
+/src/.env.production
+/src/auth.json
+
+# Dependencias
+/src/vendor/
+/src/node_modules/
+
+# Archivos compilados y generados
+/src/public/build/
+/src/public/fonts-manifest.dev.json
+/src/public/hot
+/src/public/storage
+
+# Storage de Laravel
+/src/storage/*.key
+/src/storage/pail
+
+# Caché de pruebas
+/src/.phpunit.result.cache
+/src/.phpunit.cache
+
+# Editores e IDE
+/.idea
+/.vscode
+/src/.codex
+/src/.cursor/
+/src/.idea
+/src/.nova
+/src/.vscode
+/src/.zed
+/src/.phpactor.json
+/src/_ide_helper.php
+/src/Homestead.json
+/src/Homestead.yaml
+
+# Archivos sueltos que no son parte del código
+/src/estructura-proyecto.txt
+/src/TG-Proyecto-limpio.zip
+/src/appModelsModule.php
+/src/README.md

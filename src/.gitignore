@@ -1,0 +1,95 @@
+# Dependencias (se instalan con composer install / npm ci)
+/vendor
+/node_modules
+
+# Variables de entorno con credenciales reales
+# (.env.example SÍ se sube: solo trae valores de ejemplo)
+.env
+.env.backup
+.env.production
+.env.*.local
+/auth.json
+
+# Archivos compilados y enlaces generados
+/public/build
+/public/hot
+/public/storage
+/public/fonts-manifest.dev.json
+
+# Archivos subidos desde la plataforma (videos e imágenes de lecciones)
+/storage/app/public/*
+!/storage/app/public/.gitignore
+/storage/app/private/*
+!/storage/app/private/.gitignore
+
+# Logs, caché y archivos temporales de Laravel
+*.log
+/storage/*.key
+/storage/pail
+/storage/logs/*
+!/storage/logs/.gitignore
+/storage/framework/cache/*
+!/storage/framework/cache/.gitignore
+/storage/framework/sessions/*
+!/storage/framework/sessions/.gitignore
+/storage/framework/views/*
+!/storage/framework/views/.gitignore
+/storage/framework/testing/*
+/bootstrap/cache/*.php
+.phpunit.result.cache
+/.phpunit.cache
+
+# Respaldos y archivos sueltos que no son parte del código
+*.dump
+*.sql
+*.zip
+*.bak
+estructura-proyecto.txt
+appModelsModule.php
+
+# Editores e IDE
+/.idea
+/.vscode
+/.zed
+/.nova
+/.cursor/
+/.codex
+.phpactor.json
+_ide_helper.php
+Homestead.json
+Homestead.yaml
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+
+*.log
+.DS_Store
+.env
+.env.backup
+.env.production
+.phpactor.json
+.phpunit.result.cache
+/.codex
+/.cursor/
+/.idea
+/.nova
+/.phpunit.cache
+/.vscode
+/.zed
+/auth.json
+/node_modules
+/public/build
+/public/fonts-manifest.dev.json
+/public/hot
+/public/storage
+/storage/*.key
+/storage/pail
+/vendor
+_ide_helper.php
+Homestead.json
+Homestead.yaml
+Thumbs.db
+estructura-proyecto.txt
+TG-Proyecto-limpio.zip
